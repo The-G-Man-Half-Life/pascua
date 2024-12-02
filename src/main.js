@@ -1,3 +1,5 @@
+import './style.css'
+
 // Array vacío donde agregarás las rutas de las imágenes de los ElePHPants
 let elephpants = [];
 
@@ -12,7 +14,7 @@ for (let index = 1; index <= 80; index++) {
     if (index == 3 || index ==4 || index == 9) {
         continue
     }
-    elephpants.push(`../public/imgs/${index}.jpg`)
+    elephpants.push(`./imgs/${index}.jpg`)
     
 }}
 
