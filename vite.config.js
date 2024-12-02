@@ -5,5 +5,5 @@ export default defineConfig({
         outdir: 'dist'
     },
 
-    base: './',
+    base: '/pascua/',
 });
