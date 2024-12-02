@@ -1,6 +1,9 @@
-export default {
-    base: '/pascua/',
-    build:{
-        outDir: 'dist',
+import {defineConfig} from 'vite';
+
+export default defineConfig({
+    build: {
+        outdir: 'dist'
     },
-}
+
+    base: './',
+});
